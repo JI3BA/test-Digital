@@ -1,0 +1,132 @@
+.section__contacts{
+    display: flex;
+    justify-content: center;
+}
+
+.contacts__container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 92px;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: rgba(196, 196, 196, 0.00);
+}
+
+.contacts-me{
+    width: 400px;
+    height: 600px;
+}
+
+.contacts-infomation__text{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contacts-infomation__description{
+    padding-bottom: 0;
+}
+
+.contacts-infomation__text{
+    padding-top: 18px;
+}
+
+.contacts-infomation__links{
+    padding-top: 20px;
+}
+
+.contacts-infomation__link{
+    text-decoration: none;
+}
+
+.contacts-infomation__link:nth-child(2){
+    margin: 0 20px 0 25px;
+}
+
+.contacts__svg{
+    transition: fill .5s;
+}
+
+.contacts-infomation__link:hover .contacts__facebook{
+    fill: var(--background-facebook);
+}
+
+.contacts-infomation__link:hover .contacts__telegram{
+    fill: var(--background-telegram);
+}
+
+.contacts-infomation__link:hover .contacts__instagram{
+    fill: var(--background-instagram);
+}
+
+.my-data{
+    display: flex;
+    margin: 20px 0 21px 0;
+}
+
+.my-data__wrap{
+    width: 280px;
+    height: 55px;
+    border: 1px solid #000;
+    background: rgba(196, 196, 196, 0.00);
+}
+
+.my-data__wrap--invalid{
+    border: 1px solid #d60000;
+}
+
+.my-data > .my-data__wrap:nth-child(2){
+    margin-left: 25px;
+}
+
+.my-data__title{
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 12px;
+    padding: 0 8px;
+}
+
+.my-data__title--invalid{
+    color:#d60000;
+}
+
+.my-data__input{
+    width: 100%;
+    height: 95%;
+    border: transparent;
+    outline: none;
+    padding: 5px 20px 14px 20px;
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.my-data__wrap--textarea{
+    width: 585px;
+    height: 190px;
+}
+
+.my-data__textarea{
+    resize: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+}
+
+.form__button{
+    margin-top: 24px;
+}
+
+.form__button:disabled{
+    opacity: .5;
+}

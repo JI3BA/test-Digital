@@ -1,0 +1,160 @@
+.section__experience{
+    display: flex;
+    justify-content: center;
+}
+
+.experience__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    padding-bottom: 120px;
+}
+
+.experience-infomation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.experience-infomation__line{
+    width: 60px;
+    height: 3px;
+    background: #FFA501;
+}
+
+.experience-infomation__name{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    left: -5px;
+}
+
+.experience-about{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.education{
+    position: relative;
+}
+
+.work-experience{
+    position: relative;
+    right: 35px;
+}
+
+.experience-head{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -7px;
+    bottom: -7px;
+}
+
+.experience-head__name{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35px;
+}
+
+.experience-list__lines{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.experience-list__circle{
+    border-radius: 50%;
+    background-color: #FFA501;
+}
+
+.experience-head__circle--small{
+    width: 15px;
+    height: 15px;
+}
+
+.education-step{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.education-step--university{
+    bottom: 295px;
+}
+
+.education-step--design{
+    bottom: 157px;
+}
+
+.step{
+    display: flex;
+    position: relative;
+}
+
+.step-icon--big{
+    width: 36px;
+    height: 36px;
+}
+
+.step-icon__svg{
+    position: absolute;
+    top: 14px;
+    left: 17.61px;
+}
+
+.step-name{
+    display: flex;
+    flex-direction: column;
+    min-width: 236px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.step-name__title{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.step-name__area{
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.step-name__desc{
+    position: absolute;
+    min-width: 375px;
+    width: 100%;
+    top: 50px;
+    left: 0;
+}
+
+.experience-list__line{
+    background-color: #000000;
+}
+
+.experience-list__line--vertical{
+    width: 1px;
+    height: 343px;
+}
+
+.education-step__line--horizontal{
+    width: 42px;
+    height: 1px;
+}
